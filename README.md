@@ -58,6 +58,18 @@ This app uses Google Firebase for user accounts. You need to set up your own Fir
     **Important:** Always add `.env` to your `.gitignore` file. This stops your keys from being shared publicly on GitHub.
 4.  **Turn On Login Methods:** In your Firebase Console, go to **Authentication** > **Sign-in method**. Enable **Google** as a sign-in option.
 
+### Movie Data from TMDB
+
+This project uses the [TMDB API](https://www.themoviedb.org/documentation/api) to fetch movie and TV show data, including posters, titles, and trailers. You need to sign up for a free TMDB account and generate an API key:
+
+1.  Go to [TMDB API](https://www.themoviedb.org/documentation/api) and create an account.
+2.  Request an API key from your TMDB account settings.
+3.  Add your TMDB API key to the `.env` file as shown above:
+    ```
+    VITE_TMDB_API_KEY="YOUR_TMDB_API_KEY"
+    ```
+4.  The app will use this key to fetch movie and show data from TMDB.
+
 ## How to Use It
 
 1.  **Start the App:** In your terminal, run:
