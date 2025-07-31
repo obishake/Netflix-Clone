@@ -82,17 +82,8 @@ This project uses the [TMDB API](https://www.themoviedb.org/documentation/api) t
 2.  **Log In:** You'll see a login page. Use your Google account (or other methods you've enabled) to sign in.
 3.  **Enjoy!** Once logged in, browse around and click any poster to watch its trailer.
 
-## Want to Help?
 
-Contributions are welcome!
 
-1.  Fork this project.
-2.  Create a new branch for your changes (`git checkout -b my-new-feature`).
-3.  Make your updates.
-4.  Commit them (`git commit -m 'Added cool new feature'`).
-5.  Push your changes (`git push origin my-new-feature`).
-6.  Open a Pull Request.
+## 🚀 Live Project Link
 
-## livProject Linke
-
- [https://github.com/your-username/your-repo-name](netflix-clone-obishake.vercel.app)
+[Click here to view the Netflix Clone](https://netflix-clone-obishake.vercel.app)
