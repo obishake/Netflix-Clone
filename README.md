@@ -95,4 +95,4 @@ Contributions are welcome!
 
 ## livProject Linke
 
- [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name)
+ [https://github.com/your-username/your-repo-name](netflix-clone-obishake.vercel.app)
