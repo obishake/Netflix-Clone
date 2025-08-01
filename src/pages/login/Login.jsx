@@ -15,6 +15,7 @@ const Login = () => {
 
   const user_auth = async (event) => {
     event.preventDefault();
+    
     setLoading(true);
     if(signState === "Sign In"){
       await login(email, password);
@@ -24,8 +25,6 @@ const Login = () => {
     }
     setLoading(false);
   }
-
-
 
   return (
     loading?<div className="login-spinner">

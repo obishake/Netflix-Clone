@@ -18,7 +18,8 @@ const App = () => {
     onAuthStateChanged(auth, async (user) => {
       if(user){
         navigate('/');
-      }else{
+      }
+      else{
         navigate('/login');
       }
     });
