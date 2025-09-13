@@ -14,21 +14,21 @@ const Navbar = () => {
   const navRef = useRef();
 
   useEffect(() => {
-  const handleScroll = () => {
-    if (window.scrollY >= 80) {
-      navRef.current.classList.add('nav-dark');
-    } else {
-      navRef.current.classList.remove('nav-dark');
-    }
-  };
+    const handleScroll = () => {
+      if (window.scrollY >= 80) {
+        navRef.current.classList.add('nav-dark');
+      } else {
+        navRef.current.classList.remove('nav-dark');
+      }
+    };
 
-  window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
-  // Clean-up function
-  return () => {
-    window.removeEventListener('scroll', handleScroll);
-  };
-}, []);
+    // Clean-up function
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
 
   return (

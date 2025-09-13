@@ -10,7 +10,7 @@ import { auth } from './firebase';
 
 const App = () => {
 
-
+  
   const navigate = useNavigate();
 
   useEffect(() => {
